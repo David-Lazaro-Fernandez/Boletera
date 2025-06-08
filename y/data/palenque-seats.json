@@ -1,0 +1,205 @@
+{
+  "venue": {
+    "name": "Palenque Victoria",
+    "type": "palenque",
+    "capacity": 2400,
+    "layout": "circular_sections"
+  },
+  "zones": [
+    {
+      "id": "zona-1",
+      "name": "Zona 1",
+      "color": "#3B82F6",
+      "price": 1200.0,
+      "position": {
+        "startAngle": 0,
+        "endAngle": 90,
+        "centerX": 400,
+        "centerY": 300
+      },
+      "sectionCount": 1,
+      "sectionGap": 0,
+      "sections": [
+        {
+          "id": "sec-unica",
+          "name": "Sección Única",
+          "rows": 8,
+          "seatsPerRow": 24,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 10,
+          "endAngle": 80
+        }
+      ]
+    },
+    {
+      "id": "zona-2",
+      "name": "Zona 2",
+      "color": "#10B981",
+      "price": 900.0,
+      "position": {
+        "startAngle": 90,
+        "endAngle": 180,
+        "centerX": 400,
+        "centerY": 300
+      },
+      "sectionCount": 3,
+      "sectionGap": 8,
+      "sections": [
+        {
+          "id": "sec-a",
+          "name": "Sección A",
+          "rows": 8,
+          "seatsPerRow": 8,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 100,
+          "endAngle": 115
+        },
+        {
+          "id": "sec-b",
+          "name": "Sección B",
+          "rows": 8,
+          "seatsPerRow": 8,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 125,
+          "endAngle": 140
+        },
+        {
+          "id": "sec-c",
+          "name": "Sección C",
+          "rows": 8,
+          "seatsPerRow": 8,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 150,
+          "endAngle": 170
+        }
+      ]
+    },
+    {
+      "id": "zona-3",
+      "name": "Zona 3",
+      "color": "#F59E0B",
+      "price": 700.0,
+      "position": {
+        "startAngle": 180,
+        "endAngle": 270,
+        "centerX": 400,
+        "centerY": 300
+      },
+      "sectionCount": 1,
+      "sectionGap": 0,
+      "sections": [
+        {
+          "id": "sec-unica",
+          "name": "Sección Única",
+          "rows": 8,
+          "seatsPerRow": 24,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 190,
+          "endAngle": 260
+        }
+      ]
+    },
+    {
+      "id": "zona-4",
+      "name": "Zona 4",
+      "color": "#8B5CF6",
+      "price": 1500.0,
+      "position": {
+        "startAngle": 270,
+        "endAngle": 360,
+        "centerX": 400,
+        "centerY": 300
+      },
+      "sectionCount": 2,
+      "sectionGap": 10,
+      "sections": [
+        {
+          "id": "sec-a",
+          "name": "Sección A",
+          "rows": 8,
+          "seatsPerRow": 12,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 280,
+          "endAngle": 305
+        },
+        {
+          "id": "sec-b",
+          "name": "Sección B",
+          "rows": 8,
+          "seatsPerRow": 12,
+          "startRadius": 180,
+          "rowSpacing": 25,
+          "startAngle": 315,
+          "endAngle": 350
+        }
+      ]
+    },
+    {
+      "id": "vip-central",
+      "name": "VIP Central",
+      "color": "#DC2626",
+      "price": 2500.0,
+      "position": {
+        "startAngle": 0,
+        "endAngle": 360,
+        "centerX": 400,
+        "centerY": 300
+      },
+      "sectionCount": 4,
+      "sectionGap": 15,
+      "sections": [
+        {
+          "id": "vip-norte",
+          "name": "VIP Norte",
+          "rows": 3,
+          "seatsPerRow": 6,
+          "startRadius": 140,
+          "rowSpacing": 15,
+          "startAngle": 0,
+          "endAngle": 75
+        },
+        {
+          "id": "vip-este",
+          "name": "VIP Este",
+          "rows": 3,
+          "seatsPerRow": 6,
+          "startRadius": 140,
+          "rowSpacing": 15,
+          "startAngle": 90,
+          "endAngle": 165
+        },
+        {
+          "id": "vip-sur",
+          "name": "VIP Sur",
+          "rows": 3,
+          "seatsPerRow": 6,
+          "startRadius": 140,
+          "rowSpacing": 15,
+          "startAngle": 180,
+          "endAngle": 255
+        },
+        {
+          "id": "vip-oeste",
+          "name": "VIP Oeste",
+          "rows": 3,
+          "seatsPerRow": 6,
+          "startRadius": 140,
+          "rowSpacing": 15,
+          "startAngle": 270,
+          "endAngle": 345
+        }
+      ]
+    }
+  ],
+  "ruedo": {
+    "centerX": 400,
+    "centerY": 300,
+    "radius": 120
+  }
+}
